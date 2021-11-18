@@ -12,7 +12,6 @@ class RootIndex extends React.Component {
     const [author] = get(this, 'props.data.allContentfulPerson.nodes');
     // const products = get(this, 'props.data.allContentfulProducts.nodes')
 
-
     return (
       <Layout location={this.props.location}>
         <Hero
